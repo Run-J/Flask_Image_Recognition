@@ -27,5 +27,4 @@ jobs:
           pip install -r requirements.txt  # Install your project dependencies
 
       - name: Run tests
-        run: |
-          pytest test_model.py  # Run your tests
+        run: python -m pytest  # Run your tests
